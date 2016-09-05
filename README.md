@@ -5,4 +5,4 @@ Inbox by Google doesn't yet have a refresh icon like Gmail. As a work around, th
 * `sudo apt-get install ssmtp`
 * `sudo nano /etc/ssmtp/ssmtp.conf`
 * Paste in contents of `example-ssmtp.conf` (ctrl + shift + v)
-* Run script with `node alerts.js` (or `forever start alerts.js` - note: this requires forever to be installed)
+* Run script with `node automailer.js` (or `forever start automailer.js` - note: this requires forever to be installed)
