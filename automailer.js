@@ -15,8 +15,8 @@ function sendEmails() {
 ;(function loop() {
   "use strict";
   let rand = Math.round(Math.random() * 4*60*1000) + wait // 0 to 4 min + 2 min
-    setTimeout(function() {
-      sendEmails()
-      loop()
+  setTimeout(function() {
+    sendEmails()
+    loop()
   }, rand)
 }())
